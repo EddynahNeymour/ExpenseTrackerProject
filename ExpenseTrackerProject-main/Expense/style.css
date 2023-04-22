@@ -1,0 +1,104 @@
+body {
+    background-color: white;
+    display: flex;
+}
+
+
+.container {
+	background-color: #06c258;
+	border: 2px inset #06c258;
+	border-radius: 20px;
+    margin: 30px auto;
+    width: 900px;
+	height: 90%;
+}
+
+h1{
+	font-family: monospace;
+	font-size: 30pt;
+	padding-left: 290px;
+	color: white;
+}
+
+h2{
+	font-family: 'Lato', san-serif;
+	font-size: 20pt;
+}
+
+h3{
+	font-family: monospace;
+	font-size: 12pt;
+}
+
+.sub-container {
+    background-color: white;
+    box-shadow: var(--box-shadow);
+	border: 2px inset white;
+	border-radius: 20px;
+	width: 600px;
+    padding: 5px 10px 5px 10px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 150px 100px;
+	text-align: center;
+}
+
+.money.balance {
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin: 3px 0;
+}
+
+.money.plus {
+    color: green;
+	font-size: 20px;
+    letter-spacing: 1px;
+    margin: 3px 0;
+}
+
+.money.minus {
+    color: red;
+	font-size: 20px;
+    letter-spacing: 1px;
+    margin: 3px 0;
+}
+
+
+label {
+    display: flex;
+    margin: 10px 20px;
+	color: whitesmoke;
+	font-family: monospace;
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-size: 15pt;
+}
+
+input[type='text'],
+input[type='number'] {
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    display: block;
+    font-size: 16px;
+    padding: 10px 20px;
+    width: 50%;
+}
+
+.form-control {
+	margin-left: 30px;
+}
+
+.btn {
+    cursor: pointer;
+    background-color: #1b3d81;
+    box-shadow: var(--box-shadow);
+    color: whitesmoke;
+    border: 0;
+	border-radius: 100px;
+    display: block;
+    font-size: 18px;
+    margin: 20px 550px 30px;
+    padding: 10px;
+    width: 30%;
+}
+
